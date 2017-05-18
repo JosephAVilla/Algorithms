@@ -18,3 +18,8 @@ of least weight.
 
 # greedy3.c
 Huffman Lossless Encoding
+
+# greedy4.c
+
+# greedy5.c
+Dijkstra's single shortest path algorithm for adjacency matrix of a graph
