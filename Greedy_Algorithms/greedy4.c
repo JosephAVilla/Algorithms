@@ -53,9 +53,9 @@ double knapsack(struct object ray[], int canFit, int n) {
 
 // tester
 int main() {
-  object ray[] = {{60, 10}, {100, 20}, {120, 30}};
+  object ray[] = {{50, 50}, {90, 10}, {150, 30}, {100, 40}, {200, 50}};
   int n = sizeof(ray) / sizeof(ray[0]);
-  int canFit = 50;
+  int canFit = 100;
   cout << "weight \t value \t ratio" << endl;
   cout << "Max value is = " << knapsack(ray, canFit, n) << endl;
 
